@@ -1,0 +1,60 @@
+body{
+    margin: 0%;
+}
+.box{
+    background-color: #2874f0;
+    
+}
+#icon{
+    margin-left: 150px;
+    margin-top: 10px;
+    height: 30px;
+    width: 60px;
+}
+#plus{
+    font-style: italic;
+    margin-top: -1px;
+}
+#search{
+    margin-left: 10px;
+}
+button{
+    height: 30px;
+    width: 60px;
+    color: #2874f0;
+    margin-bottom: 10px;
+    background-color: white;
+    border: white;
+    margin-left: 10px;
+    font-size: 12px;
+}
+#query{
+    height: 30px;
+    
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+#login{
+    background-color: white;
+    border: white;
+    margin-left: 20px;
+    font-size: 12px;
+}
+#more{
+    color: white;
+    background-color: #2874f0;
+    font-size: 12px;
+}
+#cartimage{
+    margin-left: 150px;
+    margin-top: 10px;
+    height: 30px;
+    width: 60px;
+}
+.images{
+    width: 100px;
+    height: 100px;
+}
+#scroll{
+    width: 100%;
+}
