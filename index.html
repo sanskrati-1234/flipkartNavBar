@@ -6,35 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="index.css" />
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css" rel="stylesheet">
   </head>
   <body>
     <div class="box">
-      <span>
-        <a>
-          <img src="images/icon1.png" id="icon" />
-        </a>
-        <a id="plus">
-          Explore
-          <span>Plus</span>
-          <img src="images/plus.png" />
-        </a>
-      </span>
-      <span id="search">
-        <input type="search" id="query" name="q" placeholder="Search..." />
-        <button>S</button>
-      </span>
-      <span>
-        <button id="login">Login</button>
-      </span>
-      <span>
-        <button id="more">More</button>
-      </span>
-      <span>
-        <button id="cart">Cart</button>
-      </span>
+      <div id="nav">
+        <div id="flipkartIcon">
+          <a>
+            <img src="images/icon1.png"  width="75"/>
+          </a>
+          <p ><a style="font-style: italic;">Explore<a style="font-style: italic;color:rgb(168, 168, 21) ;">Plus</a><img src="images/plus.png" width="20" /></a></p>
+         </div>
+        <div id="search">
+          <input type="search" id="query"  name="q" placeholder="Search..." /><button>S</button>
+        </div>
+        <div>
+          <button id="login">Login</button>
+        </div>
+        <div>
+          <button id="more">More</button>
+        </div>
+        <div>
+          <button class="button-cart"><i class="far fa-shopping-cart"></i>Cart</button>
+        </div>
+        
+      </div>    
+      
     </div>
     <div>
-      <span>
+      <div>
         <img class="images" src="images/phone.jfif" />
         <img class="images" src="images/phone2.jfif" />
         <img class="images" src="images/img1.jfif" />
@@ -44,7 +44,7 @@
         <img class="images" src="images/phone2.jfif" />
         <img class="images" src="images/img1.jfif" />
         <img class="images" src="images/img2.jfif" />
-      </span>
+      </div>
     </div>
     <div>
       <img id="scroll" src="images/scroll.jpg" />
