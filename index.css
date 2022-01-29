@@ -1,22 +1,36 @@
 body{
     margin: 0%;
 }
+p{
+    margin: 0;
+    display: flex;
+}
+
 .box{
     background-color: #2874f0;
     
+    display: flex;
 }
-#icon{
-    margin-left: 150px;
+
+.button-cart{
+    background: transparent;
+    color: white;
+}
+#nav{
     margin-top: 10px;
-    height: 30px;
-    width: 60px;
+    display: flex;
+    height: 60px;
 }
-#plus{
-    font-style: italic;
-    margin-top: -1px;
+#flipkartIcon{
+    margin-left: 150px;
+    
+   
+    flex-direction: column;
 }
-#search{
+
+#query{
     margin-left: 10px;
+    border-color: white;
 }
 button{
     height: 30px;
@@ -25,7 +39,7 @@ button{
     margin-bottom: 10px;
     background-color: white;
     border: white;
-    margin-left: 10px;
+    
     font-size: 12px;
 }
 #query{
