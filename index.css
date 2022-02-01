@@ -1,15 +1,55 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 body{
     margin: 0%;
+}
+input{
+    border: none;
 }
 p{
     margin: 0;
     display: flex;
 }
-
+.product{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(255, 242, 242);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #e9dede;
+    
+}
+.secondary{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 0.25px solid rgb(189, 186, 186);
+    justify-content: space-around;
+    align-content: flex-start;
+    box-shadow: snow;
+    
+    
+}
+.discount{
+    padding-bottom: 2px;
+    color: rgb(151, 233, 151);
+}
+.card{
+    
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.primary{
+    display: flex;
+    justify-content:space-between;
+    padding: 5px;
+}
 .box{
     background-color: #2874f0;
     
     display: flex;
+    font-size: 16px;
 }
 
 .button-cart{
@@ -17,7 +57,7 @@ p{
     color: white;
 }
 #nav{
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
     height: 60px;
 }
@@ -29,6 +69,7 @@ p{
 }
 
 #query{
+    width: 200px;
     margin-left: 10px;
     border-color: white;
 }
@@ -44,20 +85,23 @@ button{
 }
 #query{
     height: 30px;
-    
+    margin-left: 20px;
     margin-bottom: 10px;
     font-size: 12px;
+    border: none;
 }
 #login{
     background-color: white;
     border: white;
     margin-left: 20px;
     font-size: 12px;
+    width: 100px;
 }
 #more{
     color: white;
     background-color: #2874f0;
     font-size: 12px;
+    width: 100px;
 }
 #cartimage{
     margin-left: 150px;
