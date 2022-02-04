@@ -59,6 +59,11 @@ p{
     margin-bottom: 5px;
     padding: 10px;
 }
+#card-box{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
 .primary{
     display: flex;
     justify-content:space-between;
@@ -89,8 +94,14 @@ p{
 
 #query{
     width: 200px;
-    margin-left: 10px;
-    border-color: white;
+    
+    border: none;
+    outline: none;
+    height: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    
 }
 button{
     height: 30px;
@@ -101,13 +112,6 @@ button{
     border: white;
     
     font-size: 12px;
-}
-#query{
-    height: 30px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    font-size: 12px;
-    border: none;
 }
 #login{
     background-color: white;
@@ -122,6 +126,12 @@ button{
     font-size: 12px;
     width: 100px;
 }
+#first-box-card{
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
 #cartimage{
     margin-left: 150px;
     margin-top: 10px;
@@ -131,6 +141,9 @@ button{
 .images{
     width: 100px;
     height: 100px;
+}
+h6{
+    text-align: center;
 }
 #scroll{
     width: 100%;
