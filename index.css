@@ -7,9 +7,28 @@ body{
 input{
     border: none;
 }
+#first-box{
+    margin-top: 5px;
+    display: flex;
+    
+    border: 2px solid black;
+
+    
+}
+#banner-box{
+    width: 25%;
+    align-items:flex-end;
+}
+#banner{
+    width:250px;
+    height: 350px;
+    
+    right: 4px;
+}
 p{
     margin: 0;
     display: flex;
+
 }
 .product{
     margin: 10px;
