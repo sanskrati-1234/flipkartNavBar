@@ -73,6 +73,8 @@ p{
     
     display: flex;
     font-size: 16px;
+    position: sticky;
+    top: 0;
 }
 
 .button-cart{
@@ -84,6 +86,7 @@ p{
     margin-top: 15px;
     display: flex;
     height: 60px;
+    
 }
 #flipkartIcon{
     margin-left: 150px;
