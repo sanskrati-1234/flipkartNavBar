@@ -80,6 +80,7 @@ p{
     color: white;
 }
 #nav{
+    gap:10px;
     margin-top: 15px;
     display: flex;
     height: 60px;
@@ -92,7 +93,7 @@ p{
 }
 
 #query{
-    width: 200px;
+    width: 280px;
     
     border: none;
     outline: none;
@@ -103,7 +104,7 @@ p{
     
 }
 button{
-    height: 30px;
+    height: 32px;
     width: 60px;
     color: #2874f0;
     margin-bottom: 10px;
