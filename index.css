@@ -11,28 +11,25 @@ input{
     margin-top: 5px;
     display: flex;
     
-    border: 2px solid black;
+   
 
     
 }
-#banner-box{
-    width: 100px;
-    height: 100px;
-    
 
-}
 #banner{
-    width:250px;
-    height: 350px;
-    
-    right: 4px;
+    width: 231px;
+    height: 354px;
 }
 p{
     margin: 0;
     display: flex;
 
 }
+#product-box{
+    width: 100%;
+}
 .product{
+   
     margin: 10px;
     display: flex;
     flex-direction: column;
