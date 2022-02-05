@@ -16,8 +16,10 @@ input{
     
 }
 #banner-box{
-    width: 25%;
-    align-items:flex-end;
+    width: 100px;
+    height: 100px;
+    
+
 }
 #banner{
     width:250px;
