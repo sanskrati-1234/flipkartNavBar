@@ -1,5 +1,6 @@
 *{
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
 body{
     margin: 0%;
@@ -10,12 +11,10 @@ input{
 #first-box{
     margin-top: 5px;
     display: flex;
-    
-   
-
-    
 }
-
+#banner-box{
+    flex: 20;
+}
 #banner{
     width: 231px;
     height: 354px;
@@ -26,7 +25,7 @@ p{
 
 }
 #product-box{
-    width: 100%;
+    flex: 80;
 }
 .product{
    
@@ -57,7 +56,10 @@ p{
     text-align: center;
     margin-bottom: 5px;
     padding: 10px;
+    cursor: pointer;
+
 }
+
 #card-box{
     padding: 5px;
     display: flex;
@@ -68,6 +70,10 @@ p{
     justify-content:space-between;
     padding: 5px;
 }
+.small-card{
+    display: flex;
+    flex-direction: column;
+}
 .box{
     background-color: #2874f0;
     
@@ -76,7 +82,21 @@ p{
     position: sticky;
     top: 0;
 }
-
+.footer{
+    display: flex;
+    background-color: rgb(4, 4, 54);
+    color: rgb(224, 217, 217);
+    font-weight: 30;
+}
+.first{
+    flex:60;
+}
+.second{
+    flex:20;
+}
+.third{
+    flex:20;
+}
 .button-cart{
     background: transparent;
     color: white;
@@ -150,4 +170,59 @@ h6{
 }
 #scroll{
     width: 100%;
+}
+.hover-card{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.hover-card:hover{
+    top:-15px;
+    cursor: pointer;
+    transition: top ease-in-out 5px;
+    box-shadow: 0 15px 25px rgba(92, 87, 87, 0.2);
+    border-bottom: 2px solid rgb(252, 101, 47);
+}
+
+.first-box-one{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+.footer-first{
+   display: flex;
+   border-right: 1px solid white;
+   border-color: gray;
+}
+   
+.first-box-two{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.first-box-three{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.first-box-four{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.footer-second{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    padding-left:20px ;
+    padding-top: 20px;
+}
+.footer-thrid{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    padding-top: 20px;
+    padding-right: 20px;
+
 }
