@@ -91,6 +91,7 @@ p {
 .footer-item {
   padding: 5px;
   font-size: small;
+  font-weight: 400;
 }
 .third {
   flex: 20;
