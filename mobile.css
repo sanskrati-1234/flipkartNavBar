@@ -1,0 +1,6 @@
+@media (max-width: 600px) {
+  #flipkartIcon {
+    display: flex;
+    flex-direction: column;
+  }
+}
