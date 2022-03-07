@@ -15,6 +15,21 @@ input {
 #banner-box {
   flex: 20;
 }
+#category {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.category-card-box {
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.image {
+  width: 70px;
+}
 #banner {
   width: 231px;
   height: 354px;
@@ -48,7 +63,11 @@ p {
   color: rgb(151, 233, 151);
 }
 .card {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
   margin-bottom: 5px;
   padding: 10px;
   cursor: pointer;
@@ -175,14 +194,9 @@ h6 {
   align-items: center;
   justify-content: center;
 }
-.hover-card:hover {
-  top: -15px;
-  cursor: pointer;
-  transition: top ease-in-out 5px;
-  box-shadow: 0 15px 25px rgba(92, 87, 87, 0.2);
-  border-bottom: 2px solid rgb(252, 101, 47);
+.deal-img:hover {
+  transform: scale(1.1);
 }
-
 .first-box-one {
   display: flex;
   flex-direction: column;
