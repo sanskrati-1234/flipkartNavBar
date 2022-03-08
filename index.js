@@ -25,44 +25,8 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
-const category_list=[
-  {
-    img:"images/Deals of the day/deal2.jpg",
-    title:"Hammock And Swings",
-    discount:"Up to 60% off",
-    deal:"Grab or Gone"
 
-  },
-  {
-    img:"images/Deals of the day/deal3.jpeg",
-    title:"Hammock And Swings",
-    discount:"Up to 60% off",
-    deal:"Grab or Gone"
 
-  },
-  {
-    img:"images/Deals of the day/deal4.jpeg",
-    title:"Hammock And Swings",
-    discount:"Up to 60% off",
-    deal:"Grab or Gone"
-
-  },
-  {
-    img:"images/",
-    title:"Hammock And Swings",
-    discount:"Up to 60% off",
-    deal:"Grab or Gone"
-
-  },
-  {
-    img:"images/Deals of the day/deal1.jpg",
-    title:"Hammock And Swings",
-    discount:"Up to 60% off",
-    deal:"Grab or Gone"
-
-  }
-
-]
 const list = [
     {
       title: "Top Offers",
@@ -121,3 +85,7 @@ const list = [
     }
   }
   abc();
+  
+$(document).ready(function() {
+    $('#header').load('nav.html');
+  });

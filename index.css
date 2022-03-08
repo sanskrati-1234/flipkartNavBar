@@ -62,6 +62,9 @@ p {
   padding-bottom: 2px;
   color: rgb(151, 233, 151);
 }
+.search {
+  display: flex;
+}
 .card {
   display: flex;
   flex-direction: column;
@@ -89,14 +92,7 @@ p {
   flex-direction: column;
   flex-wrap: wrap;
 }
-.box {
-  background-color: #2874f0;
 
-  display: flex;
-  font-size: 16px;
-  position: sticky;
-  top: 0;
-}
 .footer {
   display: flex;
   background-color: rgb(15, 15, 43);
@@ -123,9 +119,13 @@ p {
   color: white;
 }
 #nav {
+  background-color: #2874f0;
+  position: sticky;
+  top: 0;
   gap: 10px;
-  margin-top: 15px;
+
   display: flex;
+  align-items: center;
   height: 60px;
 }
 #flipkartIcon {
