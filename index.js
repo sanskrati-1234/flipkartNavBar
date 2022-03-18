@@ -74,18 +74,4 @@ const list = [
   for (let i = 0; i < list.length; i++) {
     category.appendChild(createChild(list[i]));
   }
-  let a = 10;
-  const b = 10;
-  function abc() {
-    let a = 10;
-    const b = 10;
-    {
-      let aa = 12;
-      var bb = 23;
-    }
-  }
-  abc();
-  
-$(document).ready(function() {
-    $('#header').load('nav.html');
-  });
+

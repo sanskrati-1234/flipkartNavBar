@@ -1,31 +1,57 @@
- 
-      <div id="nav">
-        <div id="flipkartIcon">
-          <a>
-            <img src="images/icon1.png" width="75" />
-          </a>
-          <p><a style="font-style: italic;color: white;">Explore<a
-                style="font-style: italic;color:rgb(168, 168, 21) ;">Plus</a><img src="images/plus.png"
-                width="20" /></a></p>
-        </div>
-        <div id="search">
-          <input type="text" id="query" name="q" placeholder="   Search..." /> <button
-            style="border: none; background: white;margin-left: -10px;"><i class="far fa-search"
-              style="color: #2874f0;"></i></button>
-        </div>
-        <div>
-          <button id="login">Login</button>
-        </div>
-        <div>
-          <button id="more">More</button>
-        </div>
-        <div>
-          <button class="button-cart"><i class="far fa-shopping-cart" style="margin-right: 3px;"></i>
-
-
-            Cart</button>
-        </div>
-
-      </div>
+<div id="nav-first-line">
+  <div class="corner">
 
   </div>
+  <div class="nav-first-line-center">
+    <img class="header-element mobile-view" src="images/Hamburger_icon.svg.png" width="20" />
+    <div id="flipkartIcon">
+
+      <a>
+        <img src="images/icon1.png" width="75" />
+      </a>
+      <p>
+        <a style="font-style: italic; color: white">Explore<a
+            style="font-style: italic; color: rgb(168, 168, 21)">Plus</a>
+          <img src="images/plus.png" width="15" /></a>
+      </p>
+    </div>
+    <div id="search" class="desktop-view">
+      <input class="desktop-view" type="text" id="query" name="q" placeholder="Search..." />
+      <button class="desktop-view" style="border: none; background: white; ">
+        <i class="far fa-search" style="color: #2874f0"></i>
+      </button>
+    </div>
+    <div class="desktop-view">
+      <button class="login-button">Login</button>
+    </div>
+    <div class="desktop-view">
+      <button class=" more-button" id="more">More</button>
+    </div>
+    <div class="desktop-view">
+      <i class="far fa-shopping-cart" style="color: white;"></i>
+      <button class="cart-button" class="button-cart">Cart
+      </button>
+    </div>
+
+
+  </div>
+  <div class="corner">
+    <section class="header-element mobile-view mobile-view-header-button">
+      <img src="images/download.svg" />
+
+      <i class="far fa-shopping-cart" style="margin-right: 3px;color: white;"></i>
+
+      <div>
+        <button class="mobile-login-button">Login</button>
+      </div>
+    </section>
+  </div>
+</div>
+<div id="nav-second-line" class="mobile-view">
+  <div id="search" class="desktop-view">
+    <input type="text" id="query" name="q" placeholder="Search..." />
+    <button style="border: none; background: white; ">
+      <i class="far fa-search" style="color: #2874f0"></i>
+    </button>
+  </div>
+</div>

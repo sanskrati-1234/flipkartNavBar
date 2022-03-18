@@ -19,6 +19,7 @@ input {
   padding: 10px;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .category-card-box {
   align-items: center;
@@ -62,9 +63,7 @@ p {
   padding-bottom: 2px;
   color: rgb(151, 233, 151);
 }
-.search {
-  display: flex;
-}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -128,45 +127,7 @@ p {
   align-items: center;
   height: 60px;
 }
-#flipkartIcon {
-  margin-left: 150px;
 
-  flex-direction: column;
-}
-
-#query {
-  width: 280px;
-
-  border: none;
-  outline: none;
-  height: 30px;
-  margin-left: 20px;
-  margin-bottom: 10px;
-  font-size: 12px;
-}
-button {
-  height: 32px;
-  width: 60px;
-  color: #2874f0;
-  margin-bottom: 10px;
-  background-color: white;
-  border: white;
-
-  font-size: 12px;
-}
-#login {
-  background-color: white;
-  border: white;
-  margin-left: 20px;
-  font-size: 12px;
-  width: 100px;
-}
-#more {
-  color: white;
-  background-color: #2874f0;
-  font-size: 12px;
-  width: 100px;
-}
 #first-box-card {
   flex-direction: row;
   padding: 0;

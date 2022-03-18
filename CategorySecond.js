@@ -54,6 +54,7 @@ function createChildElementOfCard(card,img,title,discount,deal){
     for(let i=0;i<category_list.length;i++){
       let val=category_list[i];
       const card= document.createElement("div");
+      
       card.className="card hover-card"
       createChildElementOfCard(card,val.img,val.title,val.discount,val.deal);
       secondary.appendChild(card);
@@ -61,21 +62,15 @@ function createChildElementOfCard(card,img,title,discount,deal){
     
   }
   const secondary=document.getElementsByClassName("secondary");
+
   for(let i=0;i<secondary.length;i++){
     createCard(secondary[i]);
   }
   
-  let url="nav.html"
-  function load(url,callback){
-      let xhr=new XMLHttpRequest();
-      console.log("aaaaa");
-      xhr.onreadystatechange=function(){
-          if(xhr.readyState==4){
-              callback(xhr.response)
-          }
-      }
-      xhr.open("GET",url,true);
-      xhr.send('');
-  }
+ 
+  
+
+
+
 
  
